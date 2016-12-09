@@ -1,0 +1,81 @@
+5-12-16, 09-15-54 - call the api to get it
+5-12-16, 09-18-11 - call the api to get it
+5-12-16, 09-18-11 - 0
+5-12-16, 09-18-11 - 0
+5-12-16, 09-25-03 - call the api to get it
+5-12-16, 09-25-03 - 0
+5-12-16, 09-25-03 - 0
+5-12-16, 09-26-00 - call the api to get it
+5-12-16, 09-26-00 - 0
+5-12-16, 09-26-01 - 0
+5-12-16, 09-27-54 - call the api to get it
+5-12-16, 09-27-54 - 0
+5-12-16, 09-27-54 - 0
+5-12-16, 09-29-46 - call the api to get it
+5-12-16, 09-29-46 - 0
+5-12-16, 09-29-46 - 0
+5-12-16, 09-29-47 - call the api to get it
+5-12-16, 09-29-47 - 0
+5-12-16, 09-29-47 - 0
+5-12-16, 09-31-08 - call the api to get it
+5-12-16, 09-31-08 - 0
+5-12-16, 09-31-09 - 0
+5-12-16, 09-32-19 - call the api to get it
+5-12-16, 09-32-19 - 0
+5-12-16, 09-32-19 - httpGet call result
+5-12-16, 09-32-19 - {"errcode":40013,"errmsg":"invalid appid hint: [CsX5mA0397e575]"}
+5-12-16, 09-36-00 - call the api to get it
+5-12-16, 09-36-00 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+5-12-16, 09-36-01 - httpGet call result: {"errcode":40013,"errmsg":"invalid appid hint: [ga7MwA0619e514]"}
+5-12-16, 09-36-19 - call the api to get it
+5-12-16, 09-36-19 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+5-12-16, 09-36-20 - httpGet call result: {"errcode":40013,"errmsg":"invalid appid hint: [ozaHYa0638e578]"}
+5-12-16, 09-37-28 - call the api to get it
+5-12-16, 09-37-28 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx56e08b08894f0d35&secret=4b1bc29bb26ff788fcab3ea917993824
+5-12-16, 09-37-28 - httpGet call result: {"access_token":"O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN","expires_in":7200}
+5-12-16, 09-38-22 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-07-24 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-07-54 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-07-54 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-07-54 - httpGet call POST parameters: 
+5-12-16, 11-07-54 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [jG16fA0132vr19]"}
+5-12-16, 11-08-38 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-08-38 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-08-38 - httpGet call POST parameters: expire_seconds=604800&action_name=QR_SCENE&action_info=Array&
+5-12-16, 11-08-38 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [5ZbH9a0176vr20]"}
+5-12-16, 11-08-50 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-08-50 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-08-50 - httpGet call POST parameters: expire_seconds=604800&action_name=QR_SCENE&action_info=Array&
+5-12-16, 11-08-50 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [k5xWwa0188vr23]"}
+5-12-16, 11-12-17 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-12-17 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-12-17 - httpGet call POST parameters: Array
+5-12-16, 11-12-17 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [nWeLQA0395vr23]"}
+5-12-16, 11-14-39 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-14-39 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-14-39 - httpGet call POST parameters: expire_seconds=604800&action_name=QR_SCENE&action_info%5Bscene%5D%5Bscene_id%5D=123
+5-12-16, 11-14-39 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [9Hog8a0537vr18]"}
+5-12-16, 11-16-35 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-16-35 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-16-35 - httpGet call POST parameters: expire_seconds=604800&action_name=QR_SCENE&action_info%5Bscene%5D%5Bscene_id%5D=123
+5-12-16, 11-16-35 - httpGet call result: 
+5-12-16, 11-16-45 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-16-45 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-16-45 - httpGet call POST parameters: expire_seconds=604800&action_name=QR_SCENE&action_info%5Bscene%5D%5Bscene_id%5D=123
+5-12-16, 11-16-45 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [OoA0ua0663vr23]"}
+5-12-16, 11-17-41 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-17-41 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-17-41 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+5-12-16, 11-17-41 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [SQAVOa0719vr20]"}
+5-12-16, 11-20-37 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-20-37 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-20-37 - httpGet call POST parameters: Array
+5-12-16, 11-20-37 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [Mz_gAa0894vr22]"}
+5-12-16, 11-24-06 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-24-06 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-24-06 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+5-12-16, 11-24-07 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [6z960104vr21]"}
+5-12-16, 11-24-31 - getAccessToken : get the accesstoken from the file
+5-12-16, 11-24-31 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
+5-12-16, 11-24-31 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+5-12-16, 11-24-31 - httpGet call result: {"ticket":"gQFd8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyVGJKekJMM2ViMFQxb0Y5ZWhvMWMAAgSpTkVYAwSAOgkA","expire_seconds":604800,"url":"http:\/\/weixin.qq.com\/q\/02TbJzBL3eb0T1oF9eho1c"}
