@@ -79,3 +79,142 @@
 5-12-16, 11-24-31 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=O3kiAi_oSM8oDACdooYJpsAOBI0hWuzCr5BTESa30AN7Dxm7MlQ9vlQkt3wpvFjvDXlbrOvT2o2GCSKfpI-r11DKV4I8t0cg38wabyEnqOwNPPzEAE6wkRtV9-x2J8tYXEZhAIALSN
 5-12-16, 11-24-31 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
 5-12-16, 11-24-31 - httpGet call result: {"ticket":"gQFd8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyVGJKekJMM2ViMFQxb0Y5ZWhvMWMAAgSpTkVYAwSAOgkA","expire_seconds":604800,"url":"http:\/\/weixin.qq.com\/q\/02TbJzBL3eb0T1oF9eho1c"}
+9-12-16, 06-23-37 - getAccessToken : call the api to get it
+9-12-16, 06-23-37 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxe97fa6dd70d513ff&secret=8cc5d56069f4f37f4f79daf952cb4e45
+9-12-16, 06-23-37 - httpGet call result: {"access_token":"gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT","expires_in":7200}
+9-12-16, 06-23-37 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-23-37 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+9-12-16, 06-23-37 - httpGet call result: {"ticket":"gQHv7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyOEJMZk45WWJjVzAxcUI4anhvMWwAAgQlTkpYAwSAOgkA","expire_seconds":604800,"url":"http:\/\/weixin.qq.com\/q\/028BLfN9YbcW01qB8jxo1l"}
+9-12-16, 06-23-55 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-23-55 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-23-55 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+9-12-16, 06-23-55 - httpGet call result: {"ticket":"gQGs7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRnkzWE1fWWJjVzAxcVQ4amhvMVgAAgQ3TkpYAwSAOgkA","expire_seconds":604800,"url":"http:\/\/weixin.qq.com\/q\/02Fy3XM_YbcW01qT8jho1X"}
+9-12-16, 06-23-56 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-23-56 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-23-56 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+9-12-16, 06-23-56 - httpGet call result: {"ticket":"gQGZ7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyWmdfUk5kWWJjVzAxcVU4ajFvMXIAAgQ4TkpYAwSAOgkA","expire_seconds":604800,"url":"http:\/\/weixin.qq.com\/q\/02Zg_RNdYbcW01qU8j1o1r"}
+9-12-16, 06-24-00 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-24-00 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-24-00 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+9-12-16, 06-24-01 - httpGet call result: {"ticket":"gQGu7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyUThtNU5RWWJjVzAxcVo4amhvMXYAAgQ9TkpYAwSAOgkA","expire_seconds":604800,"url":"http:\/\/weixin.qq.com\/q\/02Q8m5NQYbcW01qZ8jho1v"}
+9-12-16, 06-24-01 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-24-01 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-24-01 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+9-12-16, 06-24-02 - httpGet call result: {"ticket":"gQE48DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyYVk0YU1QWWJjVzAxcS04ajFvMS0AAgQ_TkpYAwSAOgkA","expire_seconds":604800,"url":"http:\/\/weixin.qq.com\/q\/02aY4aMPYbcW01q-8j1o1-"}
+9-12-16, 06-25-46 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-25-46 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/user/get?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-25-46 - httpGet call POST parameters: {"expire_seconds":604800,"action_name":"QR_SCENE","action_info":{"scene":{"scene_id":123}}}
+9-12-16, 06-25-46 - httpGet call result: {"total":2,"count":2,"data":{"openid":["oPMs6wBh2bu2MwapGGssiO8MHrCg","oPMs6wMB2urVfjYcFSSL-JA7wU4I"]},"next_openid":"oPMs6wMB2urVfjYcFSSL-JA7wU4I"}
+9-12-16, 06-28-08 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-28-08 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/user/info?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT&openid=oPMs6wBh2bu2MwapGGssiO8MHrCg&lang=zh_CN
+9-12-16, 06-28-13 - httpGet call result: {"subscribe":1,"openid":"oPMs6wBh2bu2MwapGGssiO8MHrCg","nickname":"Thibault Genaitay","sex":1,"language":"en","city":"徐汇","province":"上海","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/CumOFNUKFnSsWO4EXicrxicJgUuicNibPGDAKeicQyqqeibRoNFDBoaCnL7I1yJZdXuxOoZ1N9IdNbzIBc3MhqxfbwctPs6JkaRcVz\/0","subscribe_time":1481190716,"remark":"","groupid":0,"tagid_list":[]}
+9-12-16, 06-28-22 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-28-22 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/user/info?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT&openid=oPMs6wBh2bu2MwapGGssiO8MHrCg&lang=en_EN
+9-12-16, 06-28-22 - httpGet call result: {"subscribe":1,"openid":"oPMs6wBh2bu2MwapGGssiO8MHrCg","nickname":"Thibault Genaitay","sex":1,"language":"en","city":"Xuhui","province":"Shanghai","country":"China","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/CumOFNUKFnSsWO4EXicrxicJgUuicNibPGDAKeicQyqqeibRoNFDBoaCnL7I1yJZdXuxOoZ1N9IdNbzIBc3MhqxfbwctPs6JkaRcVz\/0","subscribe_time":1481190716,"remark":"","groupid":0,"tagid_list":[]}
+9-12-16, 06-46-37 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-46-37 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-46-37 - httpGet call result: {"errcode":44002,"errmsg":"empty post data hint: [HsXHAa0057ge23]"}
+9-12-16, 06-47-00 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-47-00 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-47-00 - httpGet call POST parameters: {"touser":"oPMs6wMB2urVfjYcFSSL-JA7wU4I","msgtype":"text","text":{"content":"Hello World"}}
+9-12-16, 06-47-03 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 06-47-46 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-47-46 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-47-46 - httpGet call POST parameters: {"touser":"oPMs6wBh2bu2MwapGGssiO8MHrCg","msgtype":"text","text":{"content":"api message ;)"}}
+9-12-16, 06-47-46 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 06-47-58 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-47-58 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-47-58 - httpGet call POST parameters: {"touser":"oPMs6wMB2urVfjYcFSSL-JA7wU4I","msgtype":"text","text":{"content":"api message ;)"}}
+9-12-16, 06-47-58 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 06-48-00 - getAccessToken : get the accesstoken from the file
+9-12-16, 06-48-00 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 06-48-00 - httpGet call POST parameters: {"touser":"oPMs6wMB2urVfjYcFSSL-JA7wU4I","msgtype":"text","text":{"content":"api message ;)"}}
+9-12-16, 06-48-00 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-16-07 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-16-07 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-16-07 - httpGet call POST parameters: {"button":{"type":"menu1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0","sub_button":[]},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-16-07 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [FyuxKa0827vr22]"}
+9-12-16, 07-16-34 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-16-34 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-16-34 - httpGet call POST parameters: {"button":{"type":"menu1","sub_button":[{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-16-34 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [MQtbiA0854vr18]"}
+9-12-16, 07-16-44 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-16-44 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-16-44 - httpGet call POST parameters: {"button":{"type":"men1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-16-45 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [NjQdAA0865vr23]"}
+9-12-16, 07-17-02 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-17-02 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-17-02 - httpGet call POST parameters: {"button":{"type":"men1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-17-02 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [UUFV90882vr18]"}
+9-12-16, 07-18-04 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-18-04 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-18-04 - httpGet call POST parameters: {"button":{"type":"menu1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]},"0":{"type":"menu2","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-18-04 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [8z1nca0944vr23]"}
+9-12-16, 07-19-02 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-19-02 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-19-02 - httpGet call POST parameters: {"button":{"name":"menu1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]},"0":{"name":"menu2","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-19-02 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [CIJAVa0002vr21]"}
+9-12-16, 07-20-20 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-20-20 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-20-20 - httpGet call POST parameters: {"button":{"name":"menu1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]},"0":{"name":"menu2","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-20-20 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [Lzw0080vr19]"}
+9-12-16, 07-20-44 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-20-44 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-20-44 - httpGet call POST parameters: {"button":{"name":"menu1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]},"0":{"name":"menu2","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-20-44 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [PonreA0104vr21]"}
+9-12-16, 07-22-48 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-22-48 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-22-48 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-22-48 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-22-48 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-22-48 - httpGet call POST parameters: {"button":{"name":"menu1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]},"0":{"name":"menu2","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}}
+9-12-16, 07-22-49 - httpGet call result: {"errcode":40016,"errmsg":"invalid button size hint: [yV1krA0229vr21]"}
+9-12-16, 07-23-38 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-23-38 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-23-42 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-23-42 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-23-42 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-23-42 - httpGet call POST parameters: {"button":[{"name":"menu1","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]},{"name":"menu2","sub_button":[{"type":"pic_sysphoto","name":"test3","key":"rselfmenu_1_0"},{"type":"click","name":"test1","key":"V1001_TODAY_MUSIC"}]}]}
+9-12-16, 07-23-43 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-27-01 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-27-01 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-27-03 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-27-03 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-27-03 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-27-03 - httpGet call POST parameters: {"button":[{"name":"menu1","sub_button":[{"type":"view","name":"webpage","url":"http:\/\/www.baidu.com\/"},{"type":"click","name":"event","key":"V1001_TODAY_MUSIC"}]},{"name":"menu2","sub_button":[{"type":"pic_sysphoto","name":"Picture","key":"rselfmenu_1_0"},{"type":"scancode_waitmsg","name":"Qrcode","key":"rselfmenu_0_0","sub_button":[]},{"type":"pic_photo_or_album","name":"album","key":"rselfmenu_1_1","sub_button":[]}]}]}
+9-12-16, 07-27-03 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-27-27 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-27-27 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-27-27 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-27-27 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-27-27 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-27-27 - httpGet call POST parameters: {"button":[{"name":"menu1","sub_button":[{"type":"view","name":"webpage","url":"http:\/\/www.baidu.com\/"},{"type":"click","name":"event","key":"V1001_TODAY_MUSIC"}]},{"name":"media","sub_button":[{"type":"pic_sysphoto","name":"Picture","key":"rselfmenu_1_0"},{"type":"scancode_waitmsg","name":"Qrcode","key":"rselfmenu_0_0","sub_button":[]},{"type":"pic_photo_or_album","name":"album","key":"rselfmenu_1_1","sub_button":[]}]}]}
+9-12-16, 07-27-28 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-05 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-05 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-06 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-06 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-06 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-06 - httpGet call POST parameters: {"button":[{"name":"menu1","sub_button":[{"type":"view","name":"webpage","url":"http:\/\/www.baidu.com\/"},{"type":"click","name":"event","key":"V1001_TODAY_MUSIC"}]},{"name":"media","sub_button":[{"type":"pic_sysphoto","name":"Picture","key":"rselfmenu_1_0"},{"type":"scancode_waitmsg","name":"Qrcode","key":"rselfmenu_0_0","sub_button":[]},{"type":"pic_photo_or_album","name":"album","key":"rselfmenu_1_1","sub_button":[]}]}]}
+9-12-16, 07-28-07 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-08 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-08 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-08 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-08 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-08 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-08 - httpGet call POST parameters: {"button":[{"name":"menu1","sub_button":[{"type":"view","name":"webpage","url":"http:\/\/www.baidu.com\/"},{"type":"click","name":"event","key":"V1001_TODAY_MUSIC"}]},{"name":"media","sub_button":[{"type":"pic_sysphoto","name":"Picture","key":"rselfmenu_1_0"},{"type":"scancode_waitmsg","name":"Qrcode","key":"rselfmenu_0_0","sub_button":[]},{"type":"pic_photo_or_album","name":"album","key":"rselfmenu_1_1","sub_button":[]}]}]}
+9-12-16, 07-28-09 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-10 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-10 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-10 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-10 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-10 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-10 - httpGet call POST parameters: {"button":[{"name":"menu1","sub_button":[{"type":"view","name":"webpage","url":"http:\/\/www.baidu.com\/"},{"type":"click","name":"event","key":"V1001_TODAY_MUSIC"}]},{"name":"media","sub_button":[{"type":"pic_sysphoto","name":"Picture","key":"rselfmenu_1_0"},{"type":"scancode_waitmsg","name":"Qrcode","key":"rselfmenu_0_0","sub_button":[]},{"type":"pic_photo_or_album","name":"album","key":"rselfmenu_1_1","sub_button":[]}]}]}
+9-12-16, 07-28-11 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-46 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-46 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-46 - httpGet call result: {"errcode":0,"errmsg":"ok"}
+9-12-16, 07-28-46 - getAccessToken : get the accesstoken from the file
+9-12-16, 07-28-46 - httpGet call to URL: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=gBbVJw2KHM9YwDc3jSkMQLMOmMb2ZM0MUq7ukaKQCuCQEsuoE7DOmZOx9iU_9kZPX1Erex8AmoMEQwi1tQNhJrM40p2eWAGu8Qyy41xpxw_eGue_m8qi6Scii7yFlDjEDWOcACAIBT
+9-12-16, 07-28-46 - httpGet call POST parameters: {"button":[{"name":"menu1","sub_button":[{"type":"view","name":"webpage","url":"http:\/\/www.baidu.com\/"},{"type":"click","name":"event","key":"V1001_TODAY_MUSIC"}]},{"name":"media","sub_button":[{"type":"pic_sysphoto","name":"Picture","key":"rselfmenu_1_0"},{"type":"scancode_waitmsg","name":"Qrcode","key":"rselfmenu_0_0","sub_button":[]},{"type":"pic_photo_or_album","name":"album","key":"rselfmenu_1_1","sub_button":[]}]}]}
+9-12-16, 07-28-46 - httpGet call result: {"errcode":0,"errmsg":"ok"}

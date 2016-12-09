@@ -28,7 +28,7 @@ function logger($stringToLog)
  * A function to proceed the calls to the wechat API
  */
 
-function httpGet($url,$post_data)
+function httpGet($url,$post_data=false)
 {
 
 	logger("httpGet call to URL: ".$url);
@@ -104,6 +104,7 @@ https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx56e08b08894f0d35&red
 //print getAccessToken();
 
 // if we are calling the QRcode Scene generator
+/*
 $accessToken = getAccessToken();
 $url = "https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=".$accessToken;
 $datas = array(
@@ -116,7 +117,89 @@ $datas = array(
 	)
 );
 print_r(httpGet($url,$datas));
+*/
 
 // if we are calling the service getListUser api call
+/*
+$accessToken = getAccessToken();
+$url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=".$accessToken;
+print_r(httpGet($url));
+*/
+
+// Get one user information
+/*
+$accessToken = getAccessToken();
+$openid = "oPMs6wBh2bu2MwapGGssiO8MHrCg";
+$url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$accessToken."&openid=".$openid."&lang=en_EN";
+print_r(httpGet($url));
+*/
+
 // if we are calling user send message
+/*
+$accessToken = getAccessToken();
+$openid = "oPMs6wBh2bu2MwapGGssiO8MHrCg";
+$url = "https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=".$accessToken;
+$datas = array(
+	"touser" => "oPMs6wMB2urVfjYcFSSL-JA7wU4I",
+	"msgtype" => "text",
+	"text" => array(
+		"content" => "api message ;)"
+	)
+);
+print_r(httpGet($url,$datas));
+*/
+
 // if we are calling the menu rebuild function
+/*
+$accessToken = getAccessToken();
+$url = "https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=".$accessToken;
+print_r(httpGet($url));
+
+$accessToken = getAccessToken();
+$url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$accessToken;
+$datas = array(
+	"button" => array(
+		array(
+			"name"=>"menu1",
+			"sub_button"=> array(
+				array(
+		           "type"=>"view",
+	               "name"=>"webpage",
+	               "url"=>"http://www.baidu.com/"
+		         ), 
+		        array(
+				  "type"=>"click",
+		          "name"=>"event",
+		          "key"=>"V1001_TODAY_MUSIC"
+				),
+	        ),
+		),
+		array(
+			"name"=>"media",
+			"sub_button"=> array(
+				array(
+		            "type"=> "pic_sysphoto", 
+		            "name"=> "Picture", 
+		            "key"=> "rselfmenu_1_0", 
+		         ), 
+		        array(
+                    "type"=> "scancode_waitmsg", 
+                    "name"=> "Qrcode", 
+                    "key"=> "rselfmenu_0_0", 
+                    "sub_button"=> [ ]
+                ), 
+                 array(
+                    "type"=> "pic_photo_or_album", 
+                    "name"=> "album", 
+                    "key"=> "rselfmenu_1_1", 
+                    "sub_button"=> [ ]
+                ), 
+	        ),
+		),
+	)
+);
+print_r(httpGet($url,$datas));
+*/
+
+
+
