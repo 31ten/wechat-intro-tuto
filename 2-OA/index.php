@@ -5,9 +5,6 @@
 define("APPID",     "wxe97fa6dd70d513ff");
 define("APPSECRET",     "8cc5d56069f4f37f4f79daf952cb4e45");
 
-/*
- * I HELPER FUNCTIONS
- */
 
 /*
  * Log function
@@ -58,10 +55,7 @@ function httpGet($url,$post_data=false)
 	return $result;
 }
 
-//"http://weixin.qq.com\q/02TbJzBL3eb0T1oF9eho1c
-/*
- * II APPLICATION FUNCTIONS
- */
+
 
 /*
  * getAccessToken
@@ -97,13 +91,8 @@ function getAccessToken()
  * III EFFECTIVE CODE
  */
 
-https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx56e08b08894f0d35&redirect_uri=http//dev.travelmate.31ten.cn&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
-
-
-// let test our token thing
-//print getAccessToken();
-
 // if we are calling the QRcode Scene generator
+
 /*
 $accessToken = getAccessToken();
 $url = "https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=".$accessToken;
@@ -112,94 +101,35 @@ $datas = array(
 	"action_name" => "QR_SCENE",
 	"action_info" => array(
 		"scene" => array(
-			"scene_id" => 123
+			"scene_id" => "room1"
 		)
 	)
 );
 print_r(httpGet($url,$datas));
+
 */
 
 // if we are calling the service getListUser api call
-/*
+
 $accessToken = getAccessToken();
 $url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=".$accessToken;
 print_r(httpGet($url));
-*/
 
-// Get one user information
-/*
-$accessToken = getAccessToken();
-$openid = "oPMs6wBh2bu2MwapGGssiO8MHrCg";
-$url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$accessToken."&openid=".$openid."&lang=en_EN";
-print_r(httpGet($url));
-*/
+//oPMs6wMB2urVfjYcFSSL-JA7wU4I
 
 // if we are calling user send message
-/*
+
 $accessToken = getAccessToken();
-$openid = "oPMs6wBh2bu2MwapGGssiO8MHrCg";
+$openid = "oPMs6wMB2urVfjYcFSSL-JA7wU4I";
 $url = "https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=".$accessToken;
 $datas = array(
-	"touser" => "oPMs6wMB2urVfjYcFSSL-JA7wU4I",
+	"touser" => $openid,
 	"msgtype" => "text",
 	"text" => array(
-		"content" => "api message ;)"
+		"content" => "api message ;) www.google.com"
 	)
 );
 print_r(httpGet($url,$datas));
-*/
-
-// if we are calling the menu rebuild function
-/*
-$accessToken = getAccessToken();
-$url = "https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=".$accessToken;
-print_r(httpGet($url));
-
-$accessToken = getAccessToken();
-$url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$accessToken;
-$datas = array(
-	"button" => array(
-		array(
-			"name"=>"menu1",
-			"sub_button"=> array(
-				array(
-		           "type"=>"view",
-	               "name"=>"webpage",
-	               "url"=>"http://www.baidu.com/"
-		         ), 
-		        array(
-				  "type"=>"click",
-		          "name"=>"event",
-		          "key"=>"V1001_TODAY_MUSIC"
-				),
-	        ),
-		),
-		array(
-			"name"=>"media",
-			"sub_button"=> array(
-				array(
-		            "type"=> "pic_sysphoto", 
-		            "name"=> "Picture", 
-		            "key"=> "rselfmenu_1_0", 
-		         ), 
-		        array(
-                    "type"=> "scancode_waitmsg", 
-                    "name"=> "Qrcode", 
-                    "key"=> "rselfmenu_0_0", 
-                    "sub_button"=> [ ]
-                ), 
-                 array(
-                    "type"=> "pic_photo_or_album", 
-                    "name"=> "album", 
-                    "key"=> "rselfmenu_1_1", 
-                    "sub_button"=> [ ]
-                ), 
-	        ),
-		),
-	)
-);
-print_r(httpGet($url,$datas));
-*/
 
 
-
+?>
