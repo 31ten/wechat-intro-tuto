@@ -27,38 +27,25 @@ $signPackage = $jssdk->GetSignPackage();
 			signature: '<?php echo $signPackage["signature"];?>',
 			// list all APIs you are going to call in jsApiList
 			jsApiList: [
-					'scanQRCode',
-	                'onMenuShareTimeline',
 	                'onMenuShareAppMessage',
 				]
     	});
 
     	wx.ready(function () {
-	        alert("Im fabulous and ready");
 	        wx.onMenuShareAppMessage({
-	            title: 'hello world', // 分享标题
-	            desc: 'Im a description', // 分享描述
-	            link: 'http://baidu.com', // 分享链接
-	            imgUrl: 'images/squaredImage.png', // 分享图标
-	            type: '', // 分享类型,music、video或link，不填默认为link
-	            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+	            title: 'hello world', 
+	            desc: 'Im a description', 
+	            link: 'http://baidu.com', 
+	            imgUrl: 'images/squaredImage.png', 
+	            type: '', 
+	            dataUrl: '', 
 	            success: function () { 
 	                alert("you shared successfully the link");
 	            },
 	            cancel: function () { 
 	                alert("Y U DID NOT SHARED MY LINK?");
 	            }
-	        });
-	        setTimeout(function(){
-        		wx.scanQRCode ({
-				    NeedResult: 0, 
-				    ScanType: ["qrCode", "barCode"], 
-				    Success: function (res) {
-					    alert(JSON.stringify(res));
-					}
-				});
-	        },3000);
-	        
+	        });  
 	    }); 
 		</script>
     </body>
